@@ -2,4 +2,4 @@
 
 ## This is the home folder for all my projects.
 
-I will make changes to this **readme** if i do a lot of stuff.
+I will make changes to this **readme** if I do a lot of stuff.
