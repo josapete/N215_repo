@@ -6,7 +6,7 @@
   .hero {
     display: flex;
     flex-direction: column;
-    @include content-center(1280px, -20px auto);
+    @include content-center($site-full-width, 0 auto);
     height: 100%;
     align-items: center;
 
