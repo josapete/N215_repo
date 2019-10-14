@@ -6,10 +6,10 @@
   .hero {
     display: flex;
     flex-direction: column;
-    width: 1280px;
+    @include content-center(1280px, -20px auto);
     height: 100%;
-    margin: 0 auto;
     align-items: center;
+
     background-image: linear-gradient(
         to right,
         rgba($site-yellow, 0.8),
