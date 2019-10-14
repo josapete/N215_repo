@@ -18,6 +18,31 @@ h6,
 p {
   margin-bottom: 16px; }
 
+.inputs {
+  height: 400px;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #ee4367;
+  padding: 50px; }
+  .inputs input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #fff;
+    border: 1px solid #540d6e;
+    background-color: #f56b88; }
+    .inputs input:focus {
+      outline: none; }
+    .inputs input::-webkit-input-placeholder {
+      color: #fff; }
+    .inputs input:-ms-input-placeholder {
+      color: #fff; }
+    .inputs input::-ms-input-placeholder {
+      color: #fff; }
+    .inputs input::placeholder {
+      color: #fff; }
+
 .hero-wrapper {
   width: 100%;
   height: 500px;
@@ -105,3 +130,19 @@ nav {
       margin: 0 10px;
       color: #ee4367;
       font-size: 20px; }
+
+.quote {
+  height: 300px;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: aqua; }
+  .quote .quote-content {
+    width: 360px; }
+
+.upcoming-events {
+  height: 320px;
+  margin: 0 auto;
+  background-color: #540d6e; }
+  .upcoming-events .event-container .title {
+    text-transform: uppercase;
+    color: white; }

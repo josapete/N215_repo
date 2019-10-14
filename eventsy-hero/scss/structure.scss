@@ -19,3 +19,29 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+.inputs {
+  height: 400px;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: $site-pink;
+  padding: 50px;
+
+  input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    color: $site-white;
+    border: 1px solid $site-purple;
+    background-color: #f56b88;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: $site-white;
+    }
+  }
+}

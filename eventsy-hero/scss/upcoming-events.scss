@@ -1,6 +1,7 @@
 .upcoming-events {
   height: 320px;
-  background-color: purple;
+  margin: 0 auto;
+  background-color: $site-purple;
 
   .event-container {
     .title {
