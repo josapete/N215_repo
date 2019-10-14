@@ -1,0 +1,6 @@
+.upcoming-events {
+  height: 320px;
+  background-color: purple; }
+  .upcoming-events .event-container .title {
+    text-transform: uppercase;
+    color: white; }

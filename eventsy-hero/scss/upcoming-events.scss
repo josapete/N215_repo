@@ -1,4 +1,14 @@
 .upcoming-events {
   height: 320px;
-  bakcground-color: $site-purple;
+  background-color: purple;
+
+  .event-container {
+    .title {
+      text-transform: uppercase;
+      color: white;
+    }
+
+    .underline {
+    }
+  }
 }
