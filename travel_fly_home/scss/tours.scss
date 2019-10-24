@@ -1,0 +1,133 @@
+.tours {
+  display: flex;
+  margin-top: -45px;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  .israel {
+    padding: 5px;
+    display: flex;
+    width: 236px;
+    height: 304px;
+    margin: 0 25px;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url("../images/tour/tour-01.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .usa {
+    padding: 5px;
+    display: flex;
+    width: 236px;
+    height: 304px;
+    margin: 0 25px;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url("../images/tour/tour-02.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .austrailia {
+    padding: 5px;
+    display: flex;
+    width: 236px;
+    height: 304px;
+    margin: 0 25px;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url("../images/tour/tour-03.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    color: $site-white;
+    display: flex;
+    margin-top: 50px;
+    font-size: 52px;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  h2 {
+    color: $site-white;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: normal;
+    font-famil: "Montserrat", sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+  }
+
+  .israel-button {
+    width: 133px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 25px;
+    display: inline-block;
+    align-self: center;
+    padding: 8px;
+    background-color: $site-blue;
+    text-decoration: none;
+    font-size: 18px;
+    color: $site-white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .usa-button {
+    width: 133px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 25px;
+    display: inline-block;
+    align-self: center;
+    padding: 8px;
+    background-color: $site-blue;
+    text-decoration: none;
+    font-size: 18px;
+    color: $site-white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .aus-button {
+    width: 133px;
+    height: 40px;
+    margin-left: 90px;
+    border-radius: 25px;
+    display: inline-block;
+    align-self: center;
+    padding: 8px;
+    background-color: $site-blue;
+    text-decoration: none;
+    font-size: 18px;
+    color: $site-white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
