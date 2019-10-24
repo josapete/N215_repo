@@ -1,4 +1,4 @@
-# 215 Repo For Class
+# 215 Repo For Class (Joshua Peterson)
 
 ## This is the home folder for all my projects.
 
