@@ -216,3 +216,30 @@
     height: 1000px;
   }
 }
+
+@media (max-width: 300px) {
+  .book-form {
+    height: 1100px;
+
+    .adult {
+      float: left;
+      margin-right: 1%;
+    }
+
+    .room {
+      margin-right: 1%;
+    }
+
+    .child {
+      margin-right: 1%;
+    }
+
+    .selector {
+      margin-right: 1%;
+    }
+
+    .selector3 {
+      margin-right: 0;
+    }
+  }
+}

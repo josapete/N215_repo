@@ -494,6 +494,21 @@ nav {
   .book-form {
     height: 1000px; } }
 
+@media (max-width: 300px) {
+  .book-form {
+    height: 1100px; }
+    .book-form .adult {
+      float: left;
+      margin-right: 1%; }
+    .book-form .room {
+      margin-right: 1%; }
+    .book-form .child {
+      margin-right: 1%; }
+    .book-form .selector {
+      margin-right: 1%; }
+    .book-form .selector3 {
+      margin-right: 0; } }
+
 .footer {
   background-color: #79addc;
   width: 100%;
@@ -556,6 +571,8 @@ nav {
     margin-left: 10%; } }
 
 @media (max-width: 600px) {
+  .footer .copy-right .logo {
+    height: 60px; }
   .footer .copy-right p {
     margin-right: 1%;
     margin-left: 1%; } }
