@@ -9,3 +9,6 @@ https://josapete.github.io/N215_repo/travel_fly/
 
 Travel-Fly Home:
 https://josapete.github.io/N215_repo/travel_fly_home/
+
+Travel-Fly Home(Responsive):
+https://josapete.github.io/N215_repo/travel_fly_home_responsive/
