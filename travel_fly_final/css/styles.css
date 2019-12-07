@@ -629,7 +629,8 @@ nav {
 
 .clients {
   width: 1020px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 600px; }
   .clients h2 {
     font-size: 40px;
     text-transform: uppercase; }
@@ -1451,7 +1452,7 @@ nav {
     .container .contact_form .message {
       width: 100%; }
     .container .contact_form .submit_button {
-      margin-left: 130px; } }
+      margin-left: 120px; } }
 
 .israel_image {
   display: -webkit-box;
