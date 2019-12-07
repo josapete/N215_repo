@@ -1,0 +1,245 @@
+.book-form {
+  width: 810px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+
+  .form {
+    h1 {
+      font-family: "Roboto", sans-serif;
+      font-size: 60px;
+      font-weight: 100;
+    }
+
+    p {
+      display: inline-block;
+      text-align: left;
+      float: left;
+      font-size: 15px;
+      margin-top: 35px;
+      margin-botton: 50px;
+      color: $site-black;
+    }
+
+    .adult {
+      display: inline-block;
+      font-size: 15px;
+      margin-right: 90px;
+      color: $site-black;
+      float: left;
+    }
+
+    .child {
+      display: inline-block;
+      font-size: 15px;
+      margin-right: 40px;
+      color: $site-black;
+      float: left;
+    }
+
+    .room {
+      display: inline-block;
+      font-size: 15px;
+      color: $site-black;
+      float: left;
+    }
+
+    .text1 {
+      width: 344px;
+      height: 58px;
+      margin: 10px 0px;
+      font-size: 15px;
+      padding: 20px;
+      float: left;
+      border: 1px solid $site-blue;
+
+      &::placeholder {
+        color: $site-black;
+        font-family: "Lato", sans-serif;
+      }
+    }
+
+    .text2 {
+      width: 453px;
+      height: 58px;
+      margin: 10px 0px;
+      font-size: 15px;
+      padding: 20px;
+      float: right;
+      border: 1px solid $site-blue;
+
+      &::placeholder {
+        color: $site-black;
+        font-family: "Lato", sans-serif;
+      }
+    }
+
+    .dates {
+      width: 698px;
+      height: 58px;
+      font-size: 15px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      margin-left: 50px;
+      display: inline;
+      float: right;
+      padding: 20px;
+      font-family: "Lato", sans-serif;
+
+      background: url(../images/calendar.svg) no-repeat right 20px center;
+      background-size: 18.99px;
+      border: 1px solid $site-blue;
+    }
+
+    .selector {
+      width: 103px;
+      height: 58px;
+      font-size: 15px;
+      margin-top: 15px;
+      margin-right: 90px;
+      float: left;
+      padding: 20px;
+      font-family: "Lato", sans-serif;
+
+      background: url(../images/down-arrow.svg) no-repeat right 10px center;
+      background-size: 18.99px;
+      border: 1px solid $site-blue;
+    }
+
+    .selector3 {
+      width: 103px;
+      height: 58px;
+      font-size: 15px;
+      margin-top: 15px;
+      float: right;
+      padding: 20px;
+      font-family: "Lato", sans-serif;
+
+      background: url(../images/down-arrow.svg) no-repeat right 10px center;
+      background-size: 18.99px;
+      border: 1px solid $site-blue;
+    }
+
+    .message {
+      width: 818px;
+      height: 192px;
+      margin-top: 15px;
+      padding: 20px;
+      resize: none;
+      font-size: 18px;
+      color: $site-black;
+      font-family: "Lato", sans-serif;
+
+      border: 1px solid $site-blue;
+    }
+
+    .submit-button {
+      display: flex;
+      width: 818px;
+      height: 60.59px;
+      border-radius: 75px;
+      margin-top: 30px;
+      background-color: $site-blue;
+      justify-content: center;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: $site-white;
+      font-family: "Lato", sans-serif;
+    }
+  }
+}
+
+@media (max-width: 875px) {
+  .book-form {
+    width: 90%;
+    height: 1000px;
+
+    .form {
+      resize: vertical;
+      width: 100%;
+      .text1 {
+        width: 100%;
+      }
+      .text2 {
+        width: 100%;
+        float: left;
+      }
+      .dates {
+        width: 100%;
+        float: right;
+      }
+
+      .adult {
+        float: left;
+        margin-right: 2%;
+      }
+
+      .room {
+        float: left;
+        margin-right: 2%;
+      }
+
+      .child {
+        position: static;
+        float: left;
+        margin-right: 2%;
+      }
+
+      .selector {
+        float: left;
+        position: static;
+        width: 20%;
+        margin-right: 1%;
+      }
+
+      .selector3 {
+        width: 20%;
+        float: left;
+        margin-right: 0;
+      }
+
+      .message {
+        width: 100%;
+      }
+
+      .submit-button {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .book-form {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 300px) {
+  .book-form {
+    height: 1100px;
+
+    .adult {
+      float: left;
+      margin-right: 1%;
+    }
+
+    .room {
+      margin-right: 1%;
+    }
+
+    .child {
+      margin-right: 1%;
+    }
+
+    .selector {
+      margin-right: 1%;
+    }
+
+    .selector3 {
+      margin-right: 0;
+    }
+  }
+}

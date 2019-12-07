@@ -1,0 +1,117 @@
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 1020px;
+  margin-bottom: 100px;
+  margin-top: -40px;
+
+  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 30px;
+  }
+
+  .contact_information {
+    display: block;
+    margin: 0 auto;
+    width: 410px;
+    margin-bottom: 100px;
+    float: left;
+  }
+
+  .contact_form {
+    display: block;
+    margin: 0 auto;
+    width: 410px;
+    margin-bottom: 100px;
+    margin-top: 84px;
+    margin-left: 40px;
+    float: left;
+
+    .text {
+      width: 570px;
+      height: 60px;
+      margin: 10px 0px;
+      font-size: 16px;
+      padding: 20px;
+      float: left;
+      background-color: $site-gray;
+      border: none;
+
+      &::placeholder {
+        color: $site-black;
+        font-family: "Lato", sans-serif;
+      }
+    }
+
+    .message {
+      width: 570px;
+      height: 199px;
+      margin-top: 15px;
+      padding: 20px;
+      resize: none;
+      font-size: 18px;
+      color: $site-black;
+      font-family: "Lato", sans-serif;
+      background-color: $site-gray;
+      border: none;
+    }
+
+    .submit_button {
+      display: flex;
+      width: 167px;
+      height: 60px;
+      margin-top: 20px;
+      background-color: $site-blue;
+      justify-content: center;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: $site-white;
+      font-family: "Lato", sans-serif;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 80%;
+    height: 1300px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1090px) {
+  .container {
+    .contact_information {
+      margin-bottom: 0px;
+    }
+    .contact_form {
+      margin-top: 0px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    .contact_form {
+      margin: 0 auto;
+      resize: vertical;
+
+      .text {
+        width: 100%;
+      }
+
+      .message {
+        width: 100%;
+      }
+
+      .submit_button {
+        margin-left: 130px;
+      }
+    }
+  }
+}
